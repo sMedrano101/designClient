@@ -1,5 +1,14 @@
 import React from 'react';
 import "../Header.css";
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import YoutubeSearchedForIcon from '@material-ui/icons/YoutubeSearchedFor';
+import FaceIcon from '@material-ui/icons/Face';
+import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
+import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
+import IconButton from '@material-ui/core/IconButton';
+import ShowChartSharpIcon from '@material-ui/icons/ShowChartSharp';;
+
+
 
 
 export default function Home() {
@@ -7,29 +16,35 @@ export default function Home() {
         <div className="app_header">
             <div className="header_wrapper"> 
             <div className="header_logo">
-                <p>LOGO</p>
+                
+            <IconButton>
+          <ShowChartSharpIcon/>
+          </IconButton>
             </div>
             <div className= "header_buttonHome">
-                <p>HomePage</p>
+                <a href="/">HomePage</a>
             </div>
             <div className="header_buttonFollow">
-                <p>Following</p>
+                <a href="/">Following</a>
             </div>
             <div className="header_search">
                 <div className="header_searchContainer">
-                <p>SearchIcon</p>
+                <IconButton>
+                <YoutubeSearchedForIcon/>
+                </IconButton>
                 <form>
                     <input type="text"/>
-                    <button>Submit</button>
+                    <button type="submit">Submit</button>
                 </form>
                 </div>
      
             </div>
             <div className="header_menuItems">
-                <p>icon</p>
-                <p>icon</p>
-                <p>icon</p>
-                <p>icon</p>
+            <NotificationsActiveIcon/>
+            <SpeakerNotesIcon/>
+            <FaceIcon/>
+            <KeyboardArrowDownIcon/>
+                
             </div>
          </div>
         </div>
