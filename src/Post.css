@@ -1,0 +1,32 @@
+.post {
+  height: fit-content;
+}
+
+.post_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.post_container .medium {
+  /*CREATING THE SIZE OF POST TO FLUCTUATE SIZE*/
+  background-color: #c1e3ff;
+  width: 252px;
+  height: 400px;
+}
+
+.post_container .medium > img {
+  width: 236px;
+  height: 354px;
+}
+/*CREATING THE SIZE OF POST TO FLUCTUATE SIZE*/
+
+.post_container > img {
+  /*design of image.*/
+  display: flex;
+  cursor: zoom-in;
+  border-radius: 16px;
+  object-fit: cover;
+}

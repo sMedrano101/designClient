@@ -1,0 +1,6 @@
+.main_body {
+  display: flex;
+  padding-top: 15px;
+  width: 91%;
+  flex-wrap: wrap; /*wrapped to keep image to flow down. */
+}
