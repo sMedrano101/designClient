@@ -8,10 +8,10 @@
 }
 
 .header_wrapper {
-  background-color: white;
+  background-color: blue;
   display: flex;
   align-items: center;
-  height: 56;
+  height: 65;
   color: black;
   margin: 0px;
 }
@@ -41,7 +41,7 @@
 }
 
 .header_searchContainer {
-  background-color: gainsboro;
+  background-color: yellow;
   display: flex;
   height: 48px;
   width: 100%; /*used for responsive w flex 1*/

@@ -2,7 +2,16 @@
 
 import firebase from "firebase";
 
- const firebaseConfig = process.env.firebaseConfig;
+ const firebaseConfig =
+  {
+  apiKey: "AIzaSyCpacPB_oETbEUV3OAUqQ6kXusvQsxX4xE",
+  authDomain: "search-project-1d5c6.firebaseapp.com",
+  projectId: "search-project-1d5c6",
+  storageBucket: "search-project-1d5c6.appspot.com",
+  messagingSenderId: "158959311239",
+  appId: "1:158959311239:web:7480d27e9d170043109b22",
+  measurementId: "G-8GH37MPK6L"
+}; // process.env.firebaseConfig;
   // Initialize Firebase remember const firebaseApp in order to run line 19.
   const firebaseApp = firebase.initializeApp(firebaseConfig);
 

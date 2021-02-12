@@ -12,7 +12,7 @@
 
 .post_container .medium {
   /*CREATING THE SIZE OF POST TO FLUCTUATE SIZE*/
-  background-color: #c1e3ff;
+  background-image: linear-gradient(red, blue);
   width: 252px;
   height: 400px;
 }
